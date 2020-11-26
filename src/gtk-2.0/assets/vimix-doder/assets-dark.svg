@@ -106,25 +106,25 @@
     <linearGradient
        id="color-bg">
       <stop
-         stop-color="#2c2e33"
+         stop-color="#141414"
          id="stop32" />
     </linearGradient>
     <linearGradient
        id="color-bg-lighter">
       <stop
-         stop-color="#36393e"
+         stop-color="#1A1A1A"
          id="stop35" />
     </linearGradient>
     <linearGradient
        id="color-base">
       <stop
-         stop-color="#313338"
+         stop-color="#181818"
          id="stop38" />
     </linearGradient>
     <linearGradient
        id="color-base-alt">
       <stop
-         stop-color="#2f3137"
+         stop-color="#1F1F1F"
          id="stop41" />
     </linearGradient>
     <linearGradient
