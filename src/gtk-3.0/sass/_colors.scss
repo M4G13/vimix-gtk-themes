@@ -45,13 +45,13 @@ $disabled_secondary_inversed_fg_color: scale-alpha($secondary_inversed_fg_color,
 $disabled_tertiary_inversed_fg_color: scale-alpha($tertiary_inversed_fg_color, $disabled_opacity);
 
 // Background colors
-$bg_color: if($variant =='dark', if($color == 'ruby' or $color == 'black' or $color == 'white', #282828, #2c2e33), #F5F5F5);
-$base_color: if($variant =='dark', if($color == 'ruby' or $color == 'black' or $color == 'white', #303030, #313338), #FFFFFF);
+$bg_color: if($variant =='dark', if($color == 'ruby' or $color == 'black' or $color == 'white', #282828, #141414), #F5F5F5);
+$base_color: if($variant =='dark', if($color == 'ruby' or $color == 'black' or $color == 'white', #303030, #181818), #FFFFFF);
 $alt_base_color: mix($base_color, $bg_color, 50%);
 
-$lighter_bg_color: if($variant =='dark', if($color == 'ruby' or $color == 'black' or $color == 'white', #383838, #36393e), #FCFCFC);
-$darker_bg_color: if($variant =='dark', if($color == 'ruby' or $color == 'black' or $color == 'white', #303030, #30333b), #EEEEEE);
-$darker_fg_color: if($variant =='light', if($color == 'ruby' or $color == 'black' or $color == 'white', #222222, #212329), #DDDDDD);
+$lighter_bg_color: if($variant =='dark', if($color == 'ruby' or $color == 'black' or $color == 'white', #383838, #1A1A1A), #FCFCFC);
+$darker_bg_color: if($variant =='dark', if($color == 'ruby' or $color == 'black' or $color == 'white', #303030, #1C1C1C), #EEEEEE);
+$darker_fg_color: if($variant =='light', if($color == 'ruby' or $color == 'black' or $color == 'white', #222222, #1F1F1F), #DDDDDD);
 
 // Headerbar colors
 $headerbar_fg_color: if($headerbar =='dark', $darker_contrast_color, $fg_color);
@@ -94,7 +94,7 @@ $tab_color: $inverse_theme_color;
 $secondary_titlebar_color: $primary_color;
 $topbar_bg_color: #222222;
 @if $color == 'ruby' or $color == 'black' { $topbar_bg_color: #222222; }
-@if $color == 'doder' or $color == 'beryl' or $color == 'amethyst' { $topbar_bg_color: #212329; }
+@if $color == 'doder' or $color == 'beryl' or $color == 'amethyst' { $topbar_bg_color: #1F1F1F; }
 $topbar_fg_color: $dark_contrast_color;
 $alt_topbar_fg_color: $darker_contrast_color;
 
